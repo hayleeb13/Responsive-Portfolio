@@ -1,0 +1,287 @@
+/* CSS Style Page */
+
+/* Main style for all three pages */
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  background-image: url(../images/dark-paths.png);
+}
+
+.container{
+  width: 960px;
+  height: 400px;
+  margin: 0% auto;
+  line-height: 150%;
+  font-family: 'Raleway', sans-serif;
+  padding: 20px;
+  background-color: white;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.container2{
+  width: 700px;
+  height: 450px;
+  margin: 0% auto;
+  line-height: 150%;
+  font-family: 'Raleway', sans-serif;
+  padding: 20px;
+  background-color: white;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#Header{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4aaaa5;
+  padding: 0px;
+  position: relative;
+}
+
+#Title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  padding: 10px;
+  background: #4aaaa5;
+  width: 200px;
+  position: relative;
+  left: 270px;
+  top: 22px;
+}
+
+#Title2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  padding: 10px;
+  background: #4aaaa5;
+  width: 200px;
+  position: relative;
+  left: 390px;
+  top: 22px;
+}
+
+header{
+  position: relative;
+  top: -30px;
+  right: 0px;
+  left: 0px;
+  padding: 0px;
+  background-color: white;
+  border-bottom:solid gray 1px;
+}
+
+.footer {
+  position: relative;
+  right: 0px;
+  bottom: -50px;
+  left: 0px;
+  padding: 25px;
+  background-color: #666666;
+  border-color: #4aaaa5;
+  border-style: solid;
+  border-width: 2px;
+  color: white;
+  text-align: center;
+}
+
+.links:hover{
+  text-decoration: none;
+}
+
+nav{
+  position: absolute;
+  right: 385px;
+  top: 40px;
+  padding: 5px;
+}
+
+/* Styling for index html */
+
+#Bio-Picture{
+  width: 200px;
+  height: 300px;
+  float: left;
+  padding: 15px;
+}
+
+#main-link{
+  position: absolute;
+  right: 265px;
+  top: 40px;
+  padding: 5px;
+}
+
+/* Styling for contact html */
+
+form{
+  padding: 15px;
+}
+
+#message-box{
+  height: 150px;
+  width: 650px;
+}
+
+#button{
+  background: #4aaaa5;
+  height: 40px;
+  width: 70px;
+  color: white;
+}
+
+#button:hover{
+  background-color: white;
+  color: black;
+}
+
+/* Styling for portfolio html */
+
+.pictures{
+  padding: 30px;
+}
+
+#name1{
+  background-color: #4aaaa5;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  top: 250px;
+}
+
+#name2{
+  background-color: #4aaaa5;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  top: 380px;
+}
+
+#name3{
+  background-color: #4aaaa5;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  top: 510px;
+}
+
+#name4{
+  background-color: #4aaaa5;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  top: 250px;
+  right: 700px;
+}
+
+#name5{
+  background-color: #4aaaa5;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  top: 380px;
+  right: 700px;
+}
+
+#image1{
+  width: 150px;
+  height: 100px;
+  position: fixed;
+  top: 205px;
+}
+
+#image2{
+  width: 150px;
+  height: 100px;
+  position: fixed;
+  top: 335px;
+}
+
+#image3{
+  width: 150px;
+  height: 100px;
+  position: fixed;
+  top: 465px;
+}
+
+#image4{
+  width: 150px;
+  height: 100px;
+  position: fixed;
+  top: 205px;
+  right: 700px;
+}
+
+#image5{
+  width: 150px;
+  height: 100px;
+  position: fixed;
+  top: 335px;
+  right: 700px;
+}
+/* media screen tags*/
+
+@media screen and (max-width: 980px) {
+  .container{height: 100%; width: 80%;}
+  .container2{height: 100%; width: 80%;}
+  #Title{padding: 20px; left: 75px;}
+  #main-link{right: 75px;}
+  header{width: 100%;}
+  #Title2{padding: 20px; left: 75px;}
+  nav{right: 75px;}
+  .pictures{height: 300px;}
+  #name1{top: 37%;}
+  #name2{top: 53%;}
+  #name3{top: 70%;}
+  #name4{top: 37%; right: 50%;}
+  #name5{top: 53%; right: 50%;}
+  #image1{top:30%;}
+  #image2{top:46%;}
+  #image3{top:63%;}
+  #image4{top:30%; right: 50%;}
+  #image5{top:46%; right: 50%;}
+}
+
+@media screen and (max-width: 768px) {
+  #Title{padding: 20px; left: 55px;}
+  #main-link{right: 55px;}
+  #Title2{padding: 20px; left: 55px;}
+  nav{right: 55px;}
+  #message-box{width: 100%;}
+  #name4{right: 40%;}
+  #name5{right: 40%;}
+  #image4{right: 40%;}
+  #image5{right: 40%;}
+}
+
+@media screen and (max-width: 640px) {
+  #Title{position: static; width: 100%; text-align: center; padding: 15px;}
+  #main-link{position: static; width: 100%; text-align: center; padding: 15px;}
+  #Title2{position: static; width: 100%; text-align: center; padding: 15px;}
+  nav{position: static; width: 100%; text-align: center; padding: 15px;}
+  .pictures{height: 730px;}
+  #name1{top: -8%; position: relative;}
+  #name2{top: -8%; position: relative;}
+  #name3{top: -8%; position: relative;}
+  #name4{top: -8%; position: relative; right: 0%;}
+  #name5{top: -8%; position: relative; right: 0%;}
+  #image1{top:30%; position: relative;}
+  #image2{top:46%; position: relative;}
+  #image3{top:63%; position: relative;}
+  #image4{top:30%; position: relative; right: 0%;}
+  #image5{top:46%; position: relative; right: 0%;}
+}
